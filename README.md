@@ -71,7 +71,7 @@ If you want to use an IDE i recommend you
 
 ---
 
-Made by [Alessandro Di Maria](mailto:alessandrodimaria3@gmail.com)
+Made by [Alessandro Di Maria](https://www.github.com/ImAl3x03)
 |
 Edited by [Chiara Sabaini](https://www.github.com/chiarasabaini)
 
