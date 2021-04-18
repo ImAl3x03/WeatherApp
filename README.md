@@ -42,7 +42,6 @@ If you want to use an IDE i recommend you
 ~~Write the credit here~~
 
 ## License
-
-> This website is protected under **BSD 2-Clause License**
+This website is protected under **BSD 2-Clause License**
 <br>
 &copy; `Alessandro Di Maria` `2021`
