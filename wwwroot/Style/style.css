@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-.navbar {
+.navbar {    
     width: 80%;
     padding: 20px 0;
     margin: auto;
@@ -16,7 +16,6 @@
     /*Grid layout to display the element of the navbar */
     display: grid;
     grid-template-columns: auto 200px;
-    grid-template-rows: 100%;
 }
 
 .time {
@@ -26,4 +25,26 @@
     /* Increase the time size */
     font-size: 30px;
     text-align: center;
+}
+
+.navbar form {
+    height: 100%;
+}
+
+.navbar form > div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-row label {
+    font-size: 26px;
+}
+
+.form-row input[type="submit"] {
+    margin-left: 20px;
+}
+
+.navbar form > div:last-of-type {
+    padding-top: 10px;
+    height: 50%;
 }
