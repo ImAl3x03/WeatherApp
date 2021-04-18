@@ -1,6 +1,21 @@
 # Weather app
 
+![Version](https://img.shields.io/badge/Version-01.01-brightgreen)
+![Author](https://img.shields.io/badge/Author-Alessandro-blue)
+![Language](https://img.shields.io/badge/Language-Cs-orange)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+
+## Description
+
 A simple weather site where you can view the weather of your city
+
+---
+
+## Requirements
+
+## Directories structure
+
+---
 
 ## Features
 
@@ -21,6 +36,8 @@ Built with:
 - XML
 ```
 
+---
+
 ## Contribute
 
 If you want to contribute to the project, please open a pull request on GitHub
@@ -34,12 +51,14 @@ I can remove the access from the repo whenever i want
 To modify the project you need .NET Compiler
 <br>
 If you want to use an IDE i recommend you
-> - [Rider](https://www.jetbrains.com/rider)
-> - [VisualStudio](https://visualstudio.microsoft.com)
+- [Rider](https://www.jetbrains.com/rider)
+- [VisualStudio](https://visualstudio.microsoft.com) 
 
-## Credit
+---
 
-~~Write the credit here~~
+Made by [Alessandro Di Maria](mailto:alessandrodimaria3@gmail.com)
+|
+Edited by [Chiara Sabaini](https://www.github.com/chiarasabaini)
 
 ## License
 This website is protected under **BSD 2-Clause License**
