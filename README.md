@@ -3,6 +3,8 @@
 ![Version](https://img.shields.io/badge/Version-01.01-brightgreen)
 ![Author](https://img.shields.io/badge/Author-Alessandro-blue)
 ![Language](https://img.shields.io/badge/Language-Cs-orange)
+![Language](https://img.shields.io/badge/Language-HTML-orange)
+![Language](https://img.shields.io/badge/Language-CSS-orange)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
 ## Description
