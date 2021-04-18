@@ -17,12 +17,12 @@ A simple weather site where you can view the weather of your city
 
 ## Directories structure
 
-> - Pages
->     - Index.html `the principal page of the site`
->  - Properties `the property to open the project`
->  - wwwroot 
->     - Styles `all the CSS style`
->     - JavaScript `all the JS script`
+- Pages
+    - Index.html `home page of the website`
+- Properties `setup files to open the project`
+- wwwroot 
+    - Styles `CSS style`
+    - JavaScript `JS scripts`
 
 ---
 
@@ -49,11 +49,11 @@ Built with:
 
 ## Contribute
 
-If you want to contribute to the project, please open a pull request on GitHub
-<br>
-If you want the complete access to the repo, please write me on my [Telegram](https://t.me/im_al3x)
-and write all the modify that you want to do on the project.
-I can remove the access from the repo whenever i want
+If you want to contribute to the project, please open a pull request on this repo.
+
+If you want complete access to the repo, please text me on [Telegram](https://t.me/im_al3x)
+and write all the changes that you want to do on the project.
+I can remove the access from the repo whenever i want.
 
 ## Use the project
 
