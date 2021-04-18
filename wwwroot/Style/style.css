@@ -5,28 +5,28 @@
     font-family: sans-serif;
 }
 
-.navbar {    
+.navbar {
     width: 80%;
     padding: 20px 0;
     margin: auto;
-    
+
     /* Visual effect */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
 }
 
 .time {
     width: 150px;
-    
+
     margin-right: 50px;
-    
+
     /* Increase the time size */
     font-size: 30px;
     text-align: center;
-    
+
     /* Positioning element */
     float: right;
     position: relative;
-    top: -65px;
+    top: -60px;
 }
 
 .navbar form {
@@ -41,10 +41,13 @@
 
 .form-row label {
     font-size: 26px;
+    
+    /* Positioning label */
+    position: relative;
+    top: -5px;
 }
 
-.form-row input[type="submit"],
-.form-row input[type="text"] {
+.form-row input[type="submit"] {
     margin-left: 20px;
-    padding: 5px;
+    padding: 0 5px;
 }
