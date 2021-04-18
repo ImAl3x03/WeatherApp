@@ -12,26 +12,29 @@
     
     /* Visual effect */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
-    
-    /*Grid layout to display the element of the navbar */
-    display: grid;
-    grid-template-columns: auto 200px;
 }
 
 .time {
-    /*Show time on the right side */
-    grid-column-start: 2;
+    width: 150px;
+    
+    margin-right: 50px;
     
     /* Increase the time size */
     font-size: 30px;
     text-align: center;
+    
+    /* Positioning element */
+    float: right;
+    position: relative;
+    top: -65px;
 }
 
 .navbar form {
     height: 100%;
+    text-align: center;
 }
 
-.navbar form > div {
+.form {
     display: flex;
     justify-content: center;
 }
@@ -40,11 +43,8 @@
     font-size: 26px;
 }
 
-.form-row input[type="submit"] {
+.form-row input[type="submit"],
+.form-row input[type="text"] {
     margin-left: 20px;
-}
-
-.navbar form > div:last-of-type {
-    padding-top: 10px;
-    height: 50%;
+    padding: 5px;
 }
