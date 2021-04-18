@@ -6,7 +6,12 @@
 }
 
 .navbar {
-    margin-top: 20px;
+    width: 80%;
+    padding: 20px 0;
+    margin: auto;
+    
+    /* Visual effect */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
     
     /*Grid layout to display the element of the navbar */
     display: grid;
@@ -18,6 +23,7 @@
     /*Show time on the right side */
     grid-column-start: 2;
     
+    /* Increase the time size */
     font-size: 30px;
     text-align: center;
 }
