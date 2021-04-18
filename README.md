@@ -13,7 +13,16 @@ A simple weather site where you can view the weather of your city
 
 ## Requirements
 
+- A browser
+
 ## Directories structure
+
+> - Pages
+>     - Index.html `the principal page of the site`
+>  - Properties `the property to open the project`
+>  - wwwroot 
+>     - Styles `all the CSS style`
+>     - JavaScript `all the JS script`
 
 ---
 
