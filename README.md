@@ -27,7 +27,7 @@ If you want to contribute to the project, please open a pull request on GitHub
 <br>
 If you want the complete access to the repo, please write me on my [Telegram](https://t.me/im_al3x)
 and write all the modify that you want to do on the project.
-I can remove the access from the repo whatever i want
+I can remove the access from the repo whenever i want
 
 ## Use the project
 
