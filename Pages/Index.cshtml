@@ -1,5 +1,6 @@
 ﻿@page
-@model WeatherApp.Pages.Index
+@model WeatherApp.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
 
@@ -13,13 +14,13 @@
 <body>
 <nav class="navbar">
     <div class="form">
-        <form method="get">
+        <form method="post">
             <div class="form-row">
                 <label for="search">Search your city</label>
             </div>
             <div class="form-row">
-                <input type="text" id="search"/>
-                <input type="submit" value="Search"/>
+                <input type="text" name="city" id="search"/>
+                <input type="submit" asp-page-handler="Search" value="Search" />
             </div>
         </form>
     </div>
