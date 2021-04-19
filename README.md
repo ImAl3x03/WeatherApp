@@ -10,7 +10,7 @@
 
 ## Description
 
-https://alex-wheater.herokuapp.com/
+https://alex-climate.herokuapp.com
 
 
 A simple weather site where you can view the weather of your city

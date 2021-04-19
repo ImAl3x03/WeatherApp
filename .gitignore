@@ -7,3 +7,6 @@
 #Compiled folder
 /bin
 /obj
+
+#Text file with the API
+*.txt
