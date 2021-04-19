@@ -1,6 +1,9 @@
 #Rider folder
 /.idea
 
+#VisualStudio folder
+/.vs
+
 #Compiled folder
 /bin
 /obj
