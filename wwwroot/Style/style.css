@@ -9,6 +9,14 @@ body {
     background-color: #20B2AA;
 }
 
+p > span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Class to hide the image */
 .hide {
     display: none;
@@ -104,10 +112,36 @@ main > h1 {
 
 footer {
     width: 100%;
-    height: 200px;
-    background-color: white;
+    background-color: #00FA9A;
 
+    /* Visual effect */
+    border-radius: 20px 20px 0 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6),
+    -10px 10px 20px rgba(0, 0, 0, 0.6),
+    10px -10px 20px rgba(0, 0, 0, 0.6),
+    -10px -10px 20px rgba(0, 0, 0, 0.6);
+    
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 20px 0;
+}
+
+.link img {
+    width: 50px;
+    height: 50px;
+}
+
+.credit {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: 20px 0;
 }
