@@ -1,6 +1,161 @@
-main {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #20B2AA;
+    
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Class to hide the image */
+.hide {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #FFFAF0;
+    
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    /* Visual effect */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6),
+    -10px 10px 20px rgba(0, 0, 0, 0.6),
+    10px -10px 20px rgba(0, 0, 0, 0.6),
+    -10px -10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.time {
+    position: absolute;
+    left: 79%;
+    
+    width: 150px;
+
+    margin-right: 50px;
+    
+    /* Increase the time size */
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar form {
+    height: 100%;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-row label {
+    font-size: 26px;
+
+    /* Positioning label */
+    position: relative;
+    top: -5px;
+}
+
+.form-row input[type="submit"] {
+    margin-left: 20px;
+    padding: 0 5px;
+}
+
+/* Empty div to get space between navbar and main document */
+.space {
+    height: 50px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+/* Class with the weather's paragraph and image */
+.weather {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+
+    margin-bottom: 20px;
+}
+
+.weather > img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Class with the temperature paragraph and image */
+.temperature {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
+}
+
+.temperature > img {
+    height: 150px;
+    margin-right: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #00FA9A;
+
+    /* Visual effect */
+    border-radius: 20px 20px 0 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6),
+    -10px 10px 20px rgba(0, 0, 0, 0.6),
+    10px -10px 20px rgba(0, 0, 0, 0.6),
+    -10px -10px 20px rgba(0, 0, 0, 0.6);
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.link img {
+    width: 50px;
+    height: 50px;
+}
+
+.credit {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }

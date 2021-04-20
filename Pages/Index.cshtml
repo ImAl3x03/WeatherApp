@@ -1,18 +1,86 @@
 ﻿@page
-@model WeatherApp.Pages.Index
+@model WeatherApp.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
 
-<html lang="it">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meteo</title>
-    <link rel="stylesheet" href="Style/style.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather</title>
+    <link rel="stylesheet" href="Style/style.css"/>
 </head>
-<body>
+<body onload="changeFoo(@Model.Info.TempC.ToString())">
+<nav class="navbar">
+    <div class="form">
+        <form method="post">
+            <div class="form-row">
+                <label for="search">Search your city</label>
+            </div>
+            <div class="form-row">
+                <input type="text" name="city" id="search"/>
+                <input type="submit" asp-page-handler="Search" value="Search"/>
+            </div>
+        </form>
+    </div>
+    <div class="time">
+        <p id="time"></p>
+    </div>
+</nav>
+
 <main>
-    <img alt="Website under construction" src="~/Under.jpg" />
+    <!-- Empty div to take space from navbar -->
+    <div class="space"></div>
+
+    <!-- User's city choose -->
+    @if (@Model.Location != null)
+    {
+        <h1>@Model.Location.ToString()</h1>
+    }
+
+    <!-- Show the date that i take from the JSON -->
+    @if (@Model.Info != null)
+    {
+        <div class="weather">
+            <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image" class="hide"/>
+            <p>@Model.Info.Text</p>
+        </div>
+
+        <div class="temperature">
+            <img src="Image/temperature.png" alt="Temperature image" class="hide"/>
+            <p>@Model.Info.TempC</p>
+        </div>
+    }
 </main>
+
+<footer>
+    <div class="link">
+        <a href="https://www.github.com/ImAl3x03/WeatherApp" target="_blank">
+            <img src="Image/Footer/GitHub.png" alt="GitHub logo"/>
+        </a>
+
+        <a href="https://www.linkedin.com/in/alessandro-di-maria03" target="_blank">
+            <img src="Image/Footer/linkedin.png" alt="LinkedIn logo"/>
+        </a>
+        
+        <a href="https://t.me/im_al3x" target="_blank">
+            <img src="Image/Footer/telegram.png" alt="Telegram logo"/>
+        </a>
+        
+        <p><a style="text-decoration: underline;" asp-page="Developer">Are you develepor?</a></p>
+    </div>
+
+    <div class="credit">
+        <p>&copy; Alessandro Di Maria, 2021</p>
+        <p>
+            <span>BSD-2 License</span>
+        </p>
+    </div>
+</footer>
+
+<script src="JavaScript/time.js"></script>
+<script src="JavaScript/image.js"></script>
+<script src="JavaScript/footer.js"></script>
 </body>
 </html>
