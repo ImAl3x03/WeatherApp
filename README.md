@@ -1,6 +1,6 @@
 # Weather app
 
-![Version](https://img.shields.io/badge/Version-0.1-brightgreen)
+![Version](https://img.shields.io/badge/Version-0.2-brightgreen)
 ![Author](https://img.shields.io/badge/Author-Alessandro-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-orange)
 ![Language](https://img.shields.io/badge/Language-HTML-orange)
@@ -34,6 +34,7 @@ A simple weather site where you can view the weather of your city
     - Style `CSS style`
     - JavaScript `JS scripts`
     - Image `All the image used in the website`
+      - Footer `All the image used in the footer`
 
 ---
 
@@ -76,6 +77,12 @@ If you want to use an IDE i recommend you
 - [VisualStudio](https://visualstudio.microsoft.com) 
 
 
+---
+
+### TODO:
+  - [x] Develop the home page
+  - [ ] Home page responsive
+  - [ ] Develop *developer* page
 ---
 
 Made by [Alessandro Di Maria](https://www.github.com/ImAl3x03)
