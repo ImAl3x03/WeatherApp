@@ -79,6 +79,10 @@ a {
     height: 50px;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 main > h1 {
     text-align: center;
 }
@@ -131,7 +135,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     
-    margin: 20px 0;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .link img {
@@ -143,5 +148,6 @@ footer {
     display: flex;
     justify-content: space-around;
     font-size: 16px;
-    margin: 20px 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }

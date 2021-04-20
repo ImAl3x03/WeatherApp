@@ -43,12 +43,12 @@
     @if (@Model.Info != null)
     {
         <div class="weather">
-            <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image"/>
+            <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image" class="hide"/>
             <p>@Model.Info.Text</p>
         </div>
 
         <div class="temperature">
-            <img src="Image/temperature.png" alt="Temperature image"/>
+            <img src="Image/temperature.png" alt="Temperature image" class="hide"/>
             <p>@Model.Info.TempC</p>
         </div>
     }
