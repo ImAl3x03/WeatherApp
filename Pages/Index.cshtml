@@ -20,7 +20,7 @@
             </div>
             <div class="form-row">
                 <input type="text" name="city" id="search"/>
-                <input type="submit" asp-page-handler="Search" value="Search" />
+                <input type="submit" asp-page-handler="Search" value="Search"/>
             </div>
         </form>
     </div>
@@ -30,8 +30,17 @@
 </nav>
 
 <main>
-    <p>@Model.Info.Text</p>
-    <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image"/>
+    @if (@Model.Location != null)
+    {
+        <h1>@Model.Location.ToString()</h1>
+    }
+    
+    @if (@Model.Info != null)
+    {
+        <p>@Model.Info.TempC</p>
+        <p>@Model.Info.Text</p>
+        <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image"/>
+    }
 </main>
 
 <script src="JavaScript/time.js"></script>
