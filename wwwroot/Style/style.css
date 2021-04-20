@@ -132,10 +132,6 @@ footer {
     -10px 10px 20px rgba(0, 0, 0, 0.6),
     10px -10px 20px rgba(0, 0, 0, 0.6),
     -10px -10px 20px rgba(0, 0, 0, 0.6);
-    
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 .link {
