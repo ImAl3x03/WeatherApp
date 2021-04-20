@@ -5,18 +5,27 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: #20B2AA;
+}
+
 /* Class to hide the image */
 .hide {
     display: none;
 }
 
 .navbar {
+    background-color: #FFFAF0;
+    
     width: 80%;
     padding: 20px 0;
     margin: auto;
 
     /* Visual effect */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6),
+    -10px 10px 20px rgba(0, 0, 0, 0.6),
+    10px -10px 20px rgba(0, 0, 0, 0.6),
+    -10px -10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .time {
