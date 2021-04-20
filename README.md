@@ -1,6 +1,6 @@
 # Weather app
 
-![Version](https://img.shields.io/badge/Version-01.01-brightgreen)
+![Version](https://img.shields.io/badge/Version-0.1-brightgreen)
 ![Author](https://img.shields.io/badge/Author-Alessandro-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-orange)
 ![Language](https://img.shields.io/badge/Language-HTML-orange)
@@ -20,6 +20,10 @@ A simple weather site where you can view the weather of your city
 ## Requirements
 
 - A browser
+- You must have an API key provided by http://weatherapi.com/
+  <br>
+  You have to put the key inside `API.txt`.
+  The file must be in the main project's directory
 
 ## Directories structure
 
@@ -27,8 +31,9 @@ A simple weather site where you can view the weather of your city
     - Index.html `home page of the website`
 - Properties `setup files to open the project`
 - wwwroot 
-    - Styles `CSS style`
+    - Style `CSS style`
     - JavaScript `JS scripts`
+    - Image `All the image used in the website`
 
 ---
 
@@ -48,7 +53,6 @@ Built with:
 - JS
 - ASP.NET Core
 - JSON
-- XML
 ```
 
 ---
@@ -61,6 +65,8 @@ If you want complete access to the repo, please text me on [Telegram](https://t.
 and write all the changes that you want to do on the project.
 I can remove the access from the repo whenever i want.
 
+---
+
 ## Use the project
 
 To modify the project you need .NET Compiler
@@ -68,6 +74,7 @@ To modify the project you need .NET Compiler
 If you want to use an IDE i recommend you
 - [Rider](https://www.jetbrains.com/rider)
 - [VisualStudio](https://visualstudio.microsoft.com) 
+
 
 ---
 
