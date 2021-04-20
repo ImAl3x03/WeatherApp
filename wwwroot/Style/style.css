@@ -7,6 +7,11 @@
 
 body {
     background-color: #20B2AA;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 p > span {
@@ -23,11 +28,16 @@ a {
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     background-color: #FFFAF0;
     
     width: 80%;
+    height: 100px;
+    margin: 0 auto;
     padding: 20px 0;
-    margin: auto;
 
     /* Visual effect */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6),
@@ -37,18 +47,16 @@ a {
 }
 
 .time {
+    position: absolute;
+    left: 79%;
+    
     width: 150px;
 
     margin-right: 50px;
-
+    
     /* Increase the time size */
     font-size: 30px;
     text-align: center;
-
-    /* Positioning element */
-    float: right;
-    position: relative;
-    top: -60px;
 }
 
 .navbar form {
