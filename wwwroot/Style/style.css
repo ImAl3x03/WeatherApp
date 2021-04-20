@@ -77,3 +77,15 @@ main > h1 {
     width: 150px;
     height: 150px;
 }
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.temperature > img {
+    height: 150px;
+    margin-right: 20px;
+}
