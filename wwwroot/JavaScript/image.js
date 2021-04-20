@@ -5,7 +5,7 @@ let image = document.querySelectorAll("main img");
 let text = document.querySelector("div.weather p ");
 
 /* Add and remove 'hide' class to the image if there's error */
-if(text.innerHTML === "Please insert a valid city") {
+if(text.innerHTML === "Please insert a valid city" || text.innerHTML === "") {
     for (let img of image) {
         img.classList.add("hide");
     }
