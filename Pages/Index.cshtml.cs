@@ -9,22 +9,6 @@ namespace WeatherApp.Pages
 {
     public class IndexModel : PageModel
     {
-	/*
-	* TODO
-	* Modify Info from variable to prop
-	*/
-
-	/*
-	* TODO
-	* Take other information from JSON
-	* TODO
-	* Modify Information class
-	* TODO
-	* Show the new Information
-	* TODO
-	* Remove initialize Information from ctor
-	*/
-
         private string _url = "http://api.weatherapi.com/v1/current.json?key=";
         public Information Info { get; private init; }
         public Location Location { get; private set; }

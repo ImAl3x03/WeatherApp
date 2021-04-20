@@ -41,7 +41,7 @@
 
 .form-row label {
     font-size: 26px;
-    
+
     /* Positioning label */
     position: relative;
     top: -5px;
@@ -50,4 +50,22 @@
 .form-row input[type="submit"] {
     margin-left: 20px;
     padding: 0 5px;
+}
+
+main > h1 {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.weather {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    
+    margin-bottom: 20px;
+}
+
+.weather > img {
+    width: 150px;
+    height: 150px;
 }

@@ -34,12 +34,17 @@
     {
         <h1>@Model.Location.ToString()</h1>
     }
-    
+
     @if (@Model.Info != null)
     {
-        <p>@Model.Info.TempC</p>
-        <p>@Model.Info.Text</p>
-        <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image"/>
+        <div class="weather">
+            <img src="@Url.Content(@Model.Info.Icon)" alt="Weather image"/>
+            <p>@Model.Info.Text</p>
+        </div>
+
+        <div class="temperature">
+            <p>@Model.Info.TempC</p>
+        </div>
     }
 </main>
 
