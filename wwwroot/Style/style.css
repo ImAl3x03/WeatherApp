@@ -5,6 +5,7 @@
     font-family: sans-serif;
 }
 
+/* Class to hide the image */
 .hide {
     display: none;
 }
@@ -56,15 +57,16 @@
     padding: 0 5px;
 }
 
+/* Empty div to get space between navbar and main document */
 .space {
     height: 50px;
 }
 
 main > h1 {
-    margin: auto;
     text-align: center;
 }
 
+/* Class with the weather's paragraph and image */
 .weather {
     text-align: center;
     font-size: 24px;
@@ -78,6 +80,7 @@ main > h1 {
     height: 150px;
 }
 
+/* Class with the temperature paragraph and image */
 .temperature {
     display: flex;
     justify-content: center;

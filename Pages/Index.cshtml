@@ -30,13 +30,16 @@
 </nav>
 
 <main>
+    <!-- Empty div to take space from navbar -->
     <div class="space"></div>
 
+    <!-- User's city choose -->
     @if (@Model.Location != null)
     {
         <h1>@Model.Location.ToString()</h1>
     }
 
+    <!-- Show the date that i take from the JSON -->
     @if (@Model.Info != null)
     {
         <div class="weather">
@@ -45,7 +48,7 @@
         </div>
 
         <div class="temperature">
-            <img src="Image/temperature.png" alt="Temperature image" />
+            <img src="Image/temperature.png" alt="Temperature image"/>
             <p>@Model.Info.TempC</p>
         </div>
     }

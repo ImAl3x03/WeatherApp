@@ -9,10 +9,14 @@ namespace WeatherApp.Pages
 {
     public class IndexModel : PageModel
     {
+        // URL where i call the API
         private string _url = "http://api.weatherapi.com/v1/current.json?key=";
+        //Information class about the weather
         public Information Info { get; private init; }
+        //Location class about the weather
         public Location Location { get; private set; }
         
+        //String where's the response JSON sent by API
         private string _result = "";
 
         public IndexModel()
@@ -20,6 +24,11 @@ namespace WeatherApp.Pages
             Info = new Information();
             string key;
             
+            /*
+             * Take the API key:
+             *  - If there's the file (localhost) it take the key from the file
+             *  - If there isn't the file (Server) it the the key from Environment variable
+             */
             try
             {
                 var read = new StreamReader("API.txt");
@@ -35,6 +44,7 @@ namespace WeatherApp.Pages
         
         public async Task OnPostSearch(string city)
         {
+            //Call the API and take the JSON
             using (var req = new HttpClient())
             {
                 _url += $"&q={city}&aqi=no";
@@ -54,6 +64,7 @@ namespace WeatherApp.Pages
                 }
             }
 
+            //Deserializing JSON and taking the information that are stored in the class
             var deserialized = JObject.Parse(_result);
             try
             {
@@ -73,6 +84,7 @@ namespace WeatherApp.Pages
         }
     }
 
+    //Class information where there's the weather information
     public class Information
     {
         public string Text { get; set; }
@@ -80,6 +92,7 @@ namespace WeatherApp.Pages
         public double? TempC { get; set; }
     }
 
+    //Class location where there's the location chosen by the user
     public class Location
     {
         public Location(string name, string region, string country)
