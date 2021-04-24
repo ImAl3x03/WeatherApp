@@ -1,6 +1,6 @@
 # Weather app
 
-![Version](https://img.shields.io/badge/Version-0.2-brightgreen)
+![Version](https://img.shields.io/badge/Version-1.0-brightgreen)
 ![Author](https://img.shields.io/badge/Author-Alessandro-blue)
 ![Language](https://img.shields.io/badge/Language-C%23-orange)
 ![Language](https://img.shields.io/badge/Language-HTML-orange)
@@ -76,13 +76,6 @@ If you want to use an IDE i recommend you
 - [Rider](https://www.jetbrains.com/rider)
 - [VisualStudio](https://visualstudio.microsoft.com) 
 
-
----
-
-### TODO:
-  - [x] Develop the home page
-  - [ ] Home page responsive
-  - [ ] Develop *developer* page
 ---
 
 Made by [Alessandro Di Maria](https://www.github.com/ImAl3x03)
