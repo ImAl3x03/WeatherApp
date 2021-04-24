@@ -16,6 +16,14 @@ p span {
     font-weight: bold;
 }
 
+section {
+    margin: 0 0 50px 7.5%;
+}
+
+h5 {
+    font-size: 16px;
+}
+
 footer {
     width: 100%;
 
