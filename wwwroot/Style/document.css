@@ -1,6 +1,5 @@
 ﻿* {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -11,6 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+p span {
+    font-weight: bold;
 }
 
 footer {
