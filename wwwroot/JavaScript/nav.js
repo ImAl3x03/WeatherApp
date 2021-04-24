@@ -6,7 +6,9 @@ let open = false;
 let id = undefined;
 
 function anim() {
-    id = setInterval(navAnimation, 10);
+    if(id === undefined) {
+        id = setInterval(navAnimation, 10);
+    }
 }
 
 function navAnimation() {
@@ -26,10 +28,12 @@ function navAnimation() {
     if(parseInt(navbarElement.style.left) === -100) {
         clearInterval(id);
         open = true;
+        id = undefined;
     }
 
     if(parseInt(navbarElement.style.left) === 0) {
         clearInterval(id);
         open = false;
+        id = undefined;
     }
 }
