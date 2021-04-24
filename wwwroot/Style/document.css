@@ -16,8 +16,43 @@ p span {
     font-weight: bold;
 }
 
+.wrap {
+    display: flex;
+}
+
+.wrap header {
+    width: 100px;
+    position: fixed;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+}
+
+nav li > a {
+    display: block;
+    margin: 20px 0;
+    color: orangered;
+}
+
+main {
+    margin-left: 130px;
+}
+
 section {
-    margin: 0 0 50px 7.5%;
+    margin-bottom: 50px;
 }
 
 h5 {
