@@ -1,19 +1,51 @@
 ﻿@page
-@model WeatherApp.Pages.Developer
-
-@{
-    Layout = null;
-}
+@model WeatherApp.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <title></title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Developer</title>
+    <link rel="stylesheet" href="Style/document.css"/>
 </head>
 <body>
-<div>
+<header>
+    <nav class="nav">
+        
+    </nav>
+</header>
+
+<main>
     
-</div>
+</main>
+
+<footer>
+    <div class="link">
+        <a href="https://www.github.com/ImAl3x03/WeatherApp" target="_blank">
+            <img src="Image/Footer/GitHub.png" alt="GitHub logo"/>
+        </a>
+
+        <a href="https://www.linkedin.com/in/alessandro-di-maria03" target="_blank">
+            <img src="Image/Footer/linkedin.png" alt="LinkedIn logo"/>
+        </a>
+        
+        <a href="https://t.me/im_al3x" target="_blank">
+            <img src="Image/Footer/telegram.png" alt="Telegram logo"/>
+        </a>
+        
+        <p><a style="text-decoration: underline;" asp-page="Index">Back home</a></p>
+    </div>
+
+    <div class="credit">
+        <p>&copy; Alessandro Di Maria, 2021</p>
+        <p>
+            <span>BSD-2 License</span>
+        </p>
+    </div>
+</footer>
+
 </body>
 </html>
